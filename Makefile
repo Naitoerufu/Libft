@@ -6,11 +6,11 @@
 #    By: mmaksymi <mmaksymi@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/11/11 16:51:42 by mmaksymi          #+#    #+#              #
-#    Updated: 2025/01/02 16:14:00 by mmaksymi         ###   ########.fr        #
+#    Updated: 2025/02/05 11:08:00 by mmaksymi         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
-CFLAGS = -Wall -Werror -Wextra
+CFLAGS = -Wall -Werror -Wextra #-Wno-unused-but-set-variable
 
 SRCS = ft_isalpha.c \
        ft_isdigit.c \
@@ -47,12 +47,9 @@ SRCS = ft_isalpha.c \
        ft_putstr_fd.c \
        ft_putendl_fd.c \
        ft_putnbr_fd.c \
-	   ft_printf/ft_putchar.c \
 	   ft_printf/ft_puthex.c \
 	   ft_printf/ft_putlonghex.c \
-	   ft_printf/ft_putnbr.c \
 	   ft_printf/ft_putptr.c \
-	   ft_printf/ft_putstr.c \
 	   ft_printf/ft_putu.c \
 	   ft_printf/ft_strtolower.c \
 	   ft_printf/main.c \
